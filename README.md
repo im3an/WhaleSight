@@ -5,16 +5,16 @@ A lightweight, real-time dashboard for monitoring Docker container resource usag
 ## Screenshots
 
 <div align="center">
-  <img src="src/images/WhaleSight_Screenshot_1.png" alt="Dashboard Overview" width="800"/>
+  <img src="images/WhaleSight_Screenshot_1.png" alt="Dashboard Overview" width="800"/>
   <p><i>Dashboard Overview - Container monitoring at a glance</i></p>
 
-  <img src="src/images/WhaleSight_Screenshot_2.png" alt="Resource Metrics" width="800"/>
+  <img src="images/WhaleSight_Screenshot_2.png" alt="Resource Metrics" width="800"/>
   <p><i>Detailed resource metrics with real-time updates</i></p>
 
-  <img src="src/images/WhaleSight_Screenshot_3.png" alt="Container Details" width="800"/>
+  <img src="images/WhaleSight_Screenshot_3.png" alt="Container Details" width="800"/>
   <p><i>Container configuration and operational details</i></p>
 
-  <img src="src/images/WhaleSight_Screenshot_4.png" alt="Historical Charts" width="800"/>
+  <img src="images/WhaleSight_Screenshot_4.png" alt="Historical Charts" width="800"/>
   <p><i>Resource usage trends and historical performance</i></p>
 </div>
 
