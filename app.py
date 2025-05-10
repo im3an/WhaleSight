@@ -8,6 +8,14 @@ import pandas as pd
 from docker_stats import DockerStats
 from dashboard import container_list, metrics, charts
 
+# Page config
+st.set_page_config(
+    page_title="Docker Container Dashboard",
+    page_icon="🐳",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 # Initialize session state for storing container history
 if 'container_histories' not in st.session_state:
     st.session_state.container_histories = {}  # Dict to store history by container ID
@@ -21,14 +29,6 @@ def get_docker_stats():
     return DockerStats()
 
 docker_stats = get_docker_stats()
-
-# Page config
-st.set_page_config(
-    page_title="Docker Container Dashboard",
-    page_icon="🐳",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
 
 # Dashboard title
 st.title("🐳 Docker Container Resource Dashboard")
@@ -132,6 +132,6 @@ st.sidebar.info(
     
     Monitor resource usage of your Docker containers in real-time.
     
-    GitHub: [Your Repository URL]
+    GitHub: https://github.com/im3an/WhaleSight.git
     """
 )
