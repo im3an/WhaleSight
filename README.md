@@ -2,6 +2,15 @@
 
 A lightweight, real-time dashboard for monitoring Docker container resource usage across Linux, macOS, and Windows.
 
+## Features
+
+- 📊 Real-time monitoring of container CPU, memory, network, and disk usage
+- 📈 Historical charts of resource usage over time
+- 🔍 Filter and search containers by name or image
+- 📱 Responsive design works on desktop and mobile
+- 🚀 Easy to install and use with minimal dependencies
+- 💻 Cross-platform (works on Linux, macOS, and Windows)
+
 ## Screenshots
 
 <div align="center">
@@ -17,15 +26,6 @@ A lightweight, real-time dashboard for monitoring Docker container resource usag
   <img src="images/WhaleSight_Screenshot_4.png" alt="Historical Charts" width="800"/>
   <p><i>Resource usage trends and historical performance</i></p>
 </div>
-
-## Features
-
-- 📊 Real-time monitoring of container CPU, memory, network, and disk usage
-- 📈 Historical charts of resource usage over time
-- 🔍 Filter and search containers by name or image
-- 📱 Responsive design works on desktop and mobile
-- 🚀 Easy to install and use with minimal dependencies
-- 💻 Cross-platform (works on Linux, macOS, and Windows)
 
 ## Requirements
 
