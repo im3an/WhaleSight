@@ -1,20 +1,0 @@
-Docker Container Resource Dashboard Components
-A well-designed Docker container resource dashboard should provide comprehensive visibility into container performance and health. Here are key metrics and information to consider including:
-Container Status Metrics
-	•	Container Count: Total, running, stopped, paused 	•	Container Health: Healthy, unhealthy, starting containers 	•	Uptime: How long containers have been running 	•	Restart Count: Number of container restarts 	•	Exit Codes: For troubleshooting failed containers
-Resource Utilization
-CPU Metrics
-	•	CPU Usage: Percentage of host CPU used by each container 	•	CPU Throttling: Times/duration container was throttled 	•	CPU Quota Usage: Usage against allocated limits
-Memory Metrics
-	•	Memory Usage: Current and peak usage 	•	Memory Limit: Percentage of allocated limit used 	•	Cache Usage: Memory used for caching 	•	Swap Usage: Container swap memory consumption 	•	Memory Failures: OOM (Out of Memory) kill events
-Network Metrics
-	•	Network I/O: Bytes sent/received 	•	Network Errors: Connection issues, packet drops 	•	Network Latency: Response times between containers 	•	Open Connections: Active network connections
-Storage Metrics
-	•	Disk I/O: Read/write operations and throughput 	•	Disk Usage: Container filesystem utilization 	•	Volume Usage: Mounted volume space consumption 	•	Overlay FS: Layer size and efficiency metrics
-Performance Visualization
-	•	Time Series Graphs: Resource usage over time 	•	Heat Maps: Identify resource-intensive containers 	•	Resource Distribution: Relative resource consumption across containers 	•	Anomaly Highlighting: Visual indicators for outliers
-Operational Data
-	•	Container Logs: Filtered or aggregated log streams 	•	Events Timeline: Container lifecycle events 	•	Image Information: Base images, versions, update status 	•	Configuration Details: Environment variables, port mappings, volumes
-Advanced Metrics
-	•	Application-Specific Metrics: Custom metrics from your applications 	•	Service-Level Indicators: Response times, error rates 	•	Orchestration Status: Kubernetes pod health if applicable 	•	Inter-Container Dependencies: Relationship visualizations
-A good dashboard should allow for both high-level overview and detailed drill-down capabilities to help with troubleshooting and capacity planning.

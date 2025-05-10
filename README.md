@@ -1,8 +1,22 @@
-# 🐳 Docker Container Resource Dashboard
+# 🐳 WhaleSight - Docker Container Resource Dashboard
 
 A lightweight, real-time dashboard for monitoring Docker container resource usage across Linux, macOS, and Windows.
 
-![Dashboard Preview](https://via.placeholder.com/800x450.png?text=Docker+Resource+Dashboard)
+## Screenshots
+
+<div align="center">
+  <img src="src/images/WhaleSight_Screenshot_1.png" alt="Dashboard Overview" width="800"/>
+  <p><i>Dashboard Overview - Container monitoring at a glance</i></p>
+
+  <img src="src/images/WhaleSight_Screenshot_2.png" alt="Resource Metrics" width="800"/>
+  <p><i>Detailed resource metrics with real-time updates</i></p>
+
+  <img src="src/images/WhaleSight_Screenshot_3.png" alt="Container Details" width="800"/>
+  <p><i>Container configuration and operational details</i></p>
+
+  <img src="src/images/WhaleSight_Screenshot_4.png" alt="Historical Charts" width="800"/>
+  <p><i>Resource usage trends and historical performance</i></p>
+</div>
 
 ## Features
 
@@ -101,3 +115,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - The Docker team for their excellent API
 - The Streamlit team for making beautiful dashboards easy to create
+
